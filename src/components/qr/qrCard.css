@@ -1,4 +1,4 @@
-/* qrCard.component.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 .qr-card {
     display: flex;
@@ -23,20 +23,26 @@
 }
 
 .qr-card_text {
+    font-family: 'Outfit', sans-serif;
     margin: 0 16px 40px;
 }
 
 .qr-card__title {
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 700;
     color: #1F314F;
     text-align: center;
     margin: 10px 0 16px;
+    line-height: 26.4px;
+    letter-spacing: 0px;
 }
 
 .qr-card__description {
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 400;
     color: #68778D;
     text-align: center;
     margin: 0;
+    line-height: 21px;
+    letter-spacing: 0.2px;
 }
