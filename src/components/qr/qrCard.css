@@ -1,0 +1,42 @@
+/* qrCard.component.css */
+
+.qr-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.qr-card__image {
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.qr-card__image img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.qr-card_text {
+    margin: 0 16px 40px;
+}
+
+.qr-card__title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F314F;
+    text-align: center;
+    margin: 10px 0 16px;
+}
+
+.qr-card__description {
+    font-size: 18px;
+    color: #68778D;
+    text-align: center;
+    margin: 0;
+}
